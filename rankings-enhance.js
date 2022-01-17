@@ -91,6 +91,7 @@ var actions = [
 // When we first run, we'll add buttons to do what we want
 var page_header = document.getElementsByClassName('page-header')[0];
 
+actions.reverse();
 actions.forEach(action =>
     {
         var btn = document.createElement("button");
